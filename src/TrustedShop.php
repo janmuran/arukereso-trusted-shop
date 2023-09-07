@@ -51,8 +51,8 @@ class TrustedShop
 
         $params = [];
         $params['Version'] = Constant::VERSION;
-        $params['webApiKey'] = $this->webApiKey;
-        $params['email'] = $this->email;
+        $params['WebApiKey'] = $this->webApiKey;
+        $params['Email'] = $this->email;
         $params['Products'] = json_encode($this->products);
 
         $query = $this->getQuery($params);
