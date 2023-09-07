@@ -1,0 +1,25 @@
+{
+  "name": "janmuran/arukereso-trusted-shop",
+  "description": "Client for arukereso trusted shop",
+  "keywords": [
+    "php",
+    "arukereso",
+    "trusted shop"
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "ext-curl": "*"
+  },
+  "authors": [
+    {
+      "name": "Jan Muran",
+      "email": "muran@muran.at"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Janmuran\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
